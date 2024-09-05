@@ -28,30 +28,31 @@
         <div style="display: flex; gap: 20px;">
             <div class=" box">
               <label for="">  Mortgage Term</label>
-              <input id="term" type="number" placeholder="&#163;">
+              <input id="term" type="text" placeholder="Years">
             </div>
             <div class=" box">
              <label for="">Interest Rate</label>
-             <input id="rate" type="number" placeholder="&#163;" >
+             <input id="rate" type="text" placeholder="&#x25;" >
            </div>
         </div>
         <div>
-           <label for="">Mortgage Type</label>
+           <div style="margin-bottom: 10px;" for="">Mortgage Type</div>
+        
+            <div style="padding: 5px; background-color: white; border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.623); margin-bottom: 5px;" >
+              <input id="Repayment" type="radio" value="Repayment">
+              <label for="Repayment">Repayment</label>
+             </div>
+             <div style="padding: 5px; background-color: white; border-radius: 5px; border: 1px solid rgba(0, 0, 0, 0.623); margin-bottom: 10px;">
+              <input id="Interest" type="radio" value="Interest Only">
+              <label for="Interest">Interest Only</label>
+             </div>
+          
        
-           
-           <div>
-            <input id="Repayment" type="radio" value="Repayment">
-            <label for="Repayment">Repayment</label>
-           </div>
-           <div>
-            <input id="Interest" type="radio" value="Interest Only">
-            <label for="Interest">Interest Only</label>
-           </div>
 
         </div>
         <div>
-          <button>
-           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#133041" d="M18.75 2.25H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5Zm-10.5 16.5a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 18.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 15a1.125 1.125 0 1 1 0-2.25A1.125 1.125 0 0 1 12 15Zm3.75 3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm1.5-5.25a.75.75 0 0 1-.75.75h-9a.75.75 0 0 1-.75-.75V6a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 .75.75v3.75Z"/></svg> Calculate Repayments</button>
+          <button style="background-color: yellow; border: none; border-radius: 10px; display: flex; align-items: center; justify-content: center; padding: 10px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#133041" d="M18.75 2.25H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5Zm-10.5 16.5a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 18.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 15a1.125 1.125 0 1 1 0-2.25A1.125 1.125 0 0 1 12 15Zm3.75 3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm1.5-5.25a.75.75 0 0 1-.75.75h-9a.75.75 0 0 1-.75-.75V6a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 .75.75v3.75Z"/></svg> Calculate Repayments</button>
         </div>
        </form>
        <div style="border-radius: 0 10px 10px 70px; flex:50%; background-color: 	rgb(4, 36, 47) ; color:white; text-align: center; ">
