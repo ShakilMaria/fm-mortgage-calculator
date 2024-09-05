@@ -1,8 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
-.form{
-    height: 100vh;
+.flex{
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+}
+
+.box label{
+   margin-bottom: 8px;
+   font-size: 16px;
+   opacity: 70%;
+}
+.box input{
+    padding: 5px;
+
+}
+.box #Amount::placeholder{
+    text-align: left;
+}
+.box input::placeholder{
+   text-align: right;
+}
+body{
+    
+   
+    background-color: rgb(227, 239, 250);
 }
